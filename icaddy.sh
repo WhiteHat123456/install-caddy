@@ -9,6 +9,7 @@ apt-get install net-tools
 #caddy binary file
 wget https://raw.githubusercontent.com/WhiteHat123456/install-caddy/master/caddy
 chmod 755 caddy
+mv ./caddy /usr/local/bin
 
 #Caddyfile
 mkdir /etc/caddy

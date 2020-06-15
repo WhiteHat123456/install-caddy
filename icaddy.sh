@@ -13,7 +13,7 @@ chmod 755 caddy
 #Caddyfile
 mkdir /etc/caddy
 touch /etc/caddy/Caddyfile
-nano /etc/caddy/Caddyfile
+
 
 #caddy.service
 curl https://raw.githubusercontent.com/WhiteHat123456/install-caddy/master/caddy.service -o  caddy.service 

@@ -1,0 +1,11 @@
+[Unit]
+Description=Caddy Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/caddy -conf /etc/caddy/Caddyfile
+Restart=on-abort
+LimitNOFILE=1048576
+
+[Install]
+WantedBy=multi-user.target

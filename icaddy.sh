@@ -25,7 +25,6 @@ ulimit -n 8192
 systemctl daemon-reload 
 systemctl restart caddy 
 systemctl status caddy 
-
 systemctl enable caddy 
 
 echo 'The installation process of caddy is complete'

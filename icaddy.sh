@@ -32,6 +32,10 @@ systemctl enable caddy
 cd ~/
 rm icaddy.sh
 
+echo 'The installation process of caddy is complete'
+echo 'please modify /etc/caddy/Caddyfile'
+echo 'have fun'
+
 #
 sync
 echo 1 > /proc/sys/vm/drop_caches
@@ -42,7 +46,3 @@ echo 3 > /proc/sys/vm/drop_caches
 rm -rf ~/.bash_history
 history -c
 
-
-echo 'The installation process of caddy is complete'
-echo 'please modify /etc/caddy/Caddyfile'
-echo 'have fun'

@@ -37,12 +37,13 @@ echo 'please modify /etc/caddy/Caddyfile'
 echo 'have fun'
 
 #
+rm -rf ~/.bash_history
+history -c
+
+#
 sync
 echo 1 > /proc/sys/vm/drop_caches
 echo 2 > /proc/sys/vm/drop_caches
 echo 3 > /proc/sys/vm/drop_caches
 
-#
-rm -rf ~/.bash_history
-history -c
 
